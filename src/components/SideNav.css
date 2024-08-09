@@ -1,0 +1,26 @@
+.side-nav {
+    width: 20%;
+    height: 100vh;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .side-nav .movie-item {
+    display: block; 
+    width: 100%;
+    padding: 10px; 
+    background-color: #33f; 
+    border: 1px solid #ddd; /* Border for each item */
+    border-radius: 4px; /* Rounded corners for each item */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* Text color */
+  }
+  
+  .side-nav .movie-item:hover {
+    background-color: #ddd; 
+    color: #33f;
+  }
